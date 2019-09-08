@@ -15,7 +15,7 @@ main()
 	while(beg<=end)
 	   {
 	   	mid=(beg+end)/2;
-	   	if(a[mid]>=num)
+	   	if(a[mid]==num)
 	   	 {
 			cout<<"the required term is found at position"<< mid+1;
 	   	    break;
